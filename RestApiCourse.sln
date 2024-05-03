@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.GettingStarted", "1.GettingStarted", "{93F26A5F-B7C1-4EFA-A65B-F3C5C0BCBE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "1.GettingStarted\Movies.Api\Movies.Api.csproj", "{A14A684F-9C89-49E1-8A88-3D550321BADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "1.GettingStarted\Movies.Application\Movies.Application.csproj", "{AF2E9161-BC29-48E6-9620-11E8759DB0C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "1.GettingStarted\Movies.Contracts\Movies.Contracts.csproj", "{DD559C75-EC77-483D-9422-545228F50151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A14A684F-9C89-49E1-8A88-3D550321BADF} = {93F26A5F-B7C1-4EFA-A65B-F3C5C0BCBE0A}
+		{AF2E9161-BC29-48E6-9620-11E8759DB0C3} = {93F26A5F-B7C1-4EFA-A65B-F3C5C0BCBE0A}
+		{DD559C75-EC77-483D-9422-545228F50151} = {93F26A5F-B7C1-4EFA-A65B-F3C5C0BCBE0A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A14A684F-9C89-49E1-8A88-3D550321BADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14A684F-9C89-49E1-8A88-3D550321BADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14A684F-9C89-49E1-8A88-3D550321BADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14A684F-9C89-49E1-8A88-3D550321BADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2E9161-BC29-48E6-9620-11E8759DB0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2E9161-BC29-48E6-9620-11E8759DB0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2E9161-BC29-48E6-9620-11E8759DB0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2E9161-BC29-48E6-9620-11E8759DB0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD559C75-EC77-483D-9422-545228F50151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD559C75-EC77-483D-9422-545228F50151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD559C75-EC77-483D-9422-545228F50151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD559C75-EC77-483D-9422-545228F50151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
